@@ -14,7 +14,7 @@ while True:
     ay += ay*0.1
     cy += cy*0.025
     y += 1
-    if (ay-(ay*0.23) >= cy):
+    if (ay-(cy*0.23) >= cy):
         break
 
 print(f'A população A irá se igualar ou ultrapassar a B em {x} anos')
