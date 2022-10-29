@@ -1,7 +1,7 @@
 ax, ay = float(15000), float(15000)
 bx = float(45000)
 cy = float(65000)
-x, y, z = 0, 0, 0
+x, y = 0, 0
 
 while True:
     ax += ax*0.1
