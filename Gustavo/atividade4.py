@@ -66,11 +66,11 @@ while True:
     num1 = num2
 
 if (seqm > 0):
-    print(f'A maior sequência consecutiva de números em ordem crescente é: {seqm}, {totm}')
+    print(f'A maior sequência consecutiva de números em ordem crescente é: {seqm}')
 else:
     print('Não teve sequência consecutiva de números em ordem crescente')
 
 if (igm > 0):
-    print(f'A maior sequência consecutiva de números constantes é: {igm}, {ign}')
+    print(f'A maior sequência consecutiva de números constantes é: {igm}')
 else:
     print('Não teve sequência consecutiva de números constantes')
