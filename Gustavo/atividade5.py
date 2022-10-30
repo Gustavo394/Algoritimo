@@ -71,7 +71,6 @@ while True:
             pot += 2
 
     if count == n_max:
-        
         break
 
 print (f'O valor dos cálculos de H = {h}\nO valor dos cálculos de S = {s}\nO valor dos cálculos de P = {p}')
