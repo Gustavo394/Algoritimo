@@ -3,7 +3,7 @@ total, vendas, extra = 0, 0, 0
 
 while True:
     vendas += float(input('Informe o valor da venda: '))
-    stop = input('Se quiser interromper o programa informe "stop": ')
+    stop = input('Se não quiser inserir mais vendas informe "stop": ')
     if stop == 'stop':
         break
 
