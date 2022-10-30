@@ -52,11 +52,9 @@ while True:
     except:
         print('O que foi digitado não parece ser um número')
 
-n_max = n
-
 while True:
     
-    while count != n_max:
+    while pot <= n:
         count +=1
         mult = count
         total = 0
@@ -70,7 +68,7 @@ while True:
             p += count/pot**3
             pot += 2
 
-    if count == n_max:
+    if pot > n:
         break
 
 print (f'O valor dos cálculos de H = {h}\nO valor dos cálculos de S = {s}\nO valor dos cálculos de P = {p}')
