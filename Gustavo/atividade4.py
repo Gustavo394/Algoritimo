@@ -19,7 +19,7 @@ while True:
         except:
             print('O que foi digitado não parece ser um número')
 
-    if num2 > num1:
+    if num1 == num2-1:
 
         if seq == 0:
             seq += 2
@@ -60,7 +60,7 @@ while True:
     else:
         ig = 0
 
-    if x == 10:
+    if x == 150:
         break
 
     num1 = num2
@@ -74,10 +74,3 @@ if (igm > 0):
     print(f'A maior sequência consecutiva de números constantes é: {igm}, {ign}')
 else:
     print('Não teve sequência consecutiva de números constantes')
-
-x = 1
-while True:
-    print(x)
-    if x == 10:
-        break
-    x += 1
