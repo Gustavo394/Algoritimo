@@ -74,3 +74,4 @@ if (igm > 0):
     print(f'A maior sequência consecutiva de números constantes é: {igm}, {ign}')
 else:
     print('Não teve sequência consecutiva de números constantes')
+    
