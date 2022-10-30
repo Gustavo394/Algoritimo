@@ -29,7 +29,7 @@ while True:
             seq += 1
             tot += num2
 
-        if seq >= seqm and tot > totm:
+        if seq == seqm and tot > totm:
             seqm = seq
             totm = tot
 
@@ -40,7 +40,7 @@ while True:
     else:
         tot = 0
         seq = 0
-    
+
     if num2 == num1:
 
         if ig == 0:
@@ -49,7 +49,7 @@ while True:
         else:
             ig += 1
 
-        if ig >= igm and num2 > ign:
+        if ig == igm and num2 > ign:
             igm = ig
             ign = num2
 
@@ -60,17 +60,24 @@ while True:
     else:
         ig = 0
 
-    if x == 150:
+    if x == 10:
         break
-    
+
     num1 = num2
 
 if (seqm > 0):
-    print(f'A maior sequência consecutiva de números em ordem crescente é: {seqm}')
+    print(f'A maior sequência consecutiva de números em ordem crescente é: {seqm}, {totm}')
 else:
     print('Não teve sequência consecutiva de números em ordem crescente')
 
 if (igm > 0):
-    print(f'A maior sequência consecutiva de números constantes é: {igm}')
+    print(f'A maior sequência consecutiva de números constantes é: {igm}, {ign}')
 else:
     print('Não teve sequência consecutiva de números constantes')
+
+x = 1
+while True:
+    print(x)
+    if x == 10:
+        break
+    x += 1
