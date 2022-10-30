@@ -60,7 +60,7 @@ while True:
     else:
         ig = 0
 
-    if x == 150:
+    if x == 10:
         break
 
     num1 = num2
